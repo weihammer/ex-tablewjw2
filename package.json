@@ -1,0 +1,85 @@
+{
+  "_from": "ex-tablewjw2",
+  "_id": "ex-tablewjw2@2.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-/b5r6CZlQr2jKSyjmdQT9HKx7mlmGkwOCaOZnmbCuHXzPOEIqzgHfVBEWGtLKpXQtkeE0duymq+chClI82urbQ==",
+  "_location": "/ex-tablewjw2",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ex-tablewjw2",
+    "name": "ex-tablewjw2",
+    "escapedName": "ex-tablewjw2",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmmirror.com/ex-tablewjw2/-/ex-tablewjw2-1.0.68.tgz",
+  "_shasum": "eb8cc79977c6c89db57be2574b0c8ca447ef65bb",
+  "_spec": "ex-tablewjw2",
+  "_where": "D:\\wjw\\test",
+  "author": {
+    "name": "wjw"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "bundleDependencies": false,
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "element-ui": "^2.15.6",
+    "vue": "^2.6.11",
+    "vue-clipboard2": "^0.3.1"
+  },
+  "deprecated": false,
+  "description": "Re-encapsulation of el-table, including double click copy, ctrl, shift selection methods. And introduce the ex-table-column plug-in to solve the problem that its asynchronous rendering data cannot be adaptive",
+  "descripyion": " ex-table default methods",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "terser-webpack-plugin": "^3.0.7",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "license": "MIT",
+  "main": "lib/ex-tablewjw2.umd.min.js",
+  "name": "ex-tablewjw2",
+  "private": false,
+  "scripts": {
+    "lib": "vue-cli-service build --target lib --name ex-tablewjw2 --dest lib package/index.js",
+    "lint": "vue-cli-service lint",
+    "lint-fix": "vue-cli-service lint --fix",
+    "serve": "vue-cli-service serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:weihammer/ex-tablewjw2.git"
+  },
+  "version": "2.0.4"
+  
+}
