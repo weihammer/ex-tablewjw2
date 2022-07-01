@@ -1,5 +1,6 @@
 # ex-table
-Re-encapsulation of el-table And introduce the ex-table-column plug-in to solve the problem that its asynchronous rendering data cannot be adaptive
+table auto fit one-line
+Re-encapsulation of el-table And introduce the ex-table-column plug-in to solve the problem that its asynchronous rendering data cannot be adaptive.
 
 ## Features
 Common ways to encapsulate other forms
